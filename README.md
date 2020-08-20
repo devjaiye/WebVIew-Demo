@@ -1,4 +1,4 @@
-# flutterwebview_demo
+# Flutter WebView Demo
 
 A new Flutter application.
 
@@ -8,8 +8,13 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Plugin Used
+- '''flutter_webview_plugin''' [link](https://pub.dev/packages/flutter_webview_plugin)
+- In order for plugin to work correctly, you need to add new key to '''ios/Runner/Info.plist''' (Already in this project)
+
+### Demo
+
+![demo](flutterwebview_demo\demo_gif)
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,

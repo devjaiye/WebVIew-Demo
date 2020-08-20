@@ -8,8 +8,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WebViewContainer('https://blog.mindorks.com', 'MindOrks'),
-
+      home: Container(
+          child: WebViewContainer()
+      ),
     );
   }
 }
