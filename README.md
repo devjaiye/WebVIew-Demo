@@ -1,21 +1,29 @@
 # Flutter WebView Demo
 
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+WebView is used to display web page in android. The web page can be loaded from same application or URL. Let's take a look at how it works
 
 ### Plugin Used
-- '''flutter_webview_plugin''' [link](https://pub.dev/packages/flutter_webview_plugin)
-- In order for plugin to work correctly, you need to add new key to '''ios/Runner/Info.plist''' (Already in this project)
+- ```flutter_webview_plugin: ^version``` :point_right: for latest verision [link] (https://pub.dev/packages/flutter_webview_plugin)
 
+- In order for plugin to work correctly, you need to add new key to ```ios/Runner/Info.plist```  
+
+   Key:
+   
+  ```
+  <key>NSAppTransportSecurity</key> 
+```<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+    <key>NSAllowsArbitraryLoadsInWebContent</key>
+    <true/>
+</dict> 
+```
+
+(Already in this project) :+1:
+
+  
 ### Demo
 
-![demo](flutterwebview_demo\demo_gif)
+![demo](https://media.giphy.com/media/loeVg2MfKQDd10q8Go/giphy.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Enjoy: :smile: :wink:
