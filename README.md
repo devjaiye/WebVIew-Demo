@@ -11,7 +11,8 @@ WebView is used to display web page in android. The web page can be loaded from 
    
   ```
   <key>NSAppTransportSecurity</key> 
-```<dict>
+```
+   <dict>
     <key>NSAllowsArbitraryLoads</key>
     <true/>
     <key>NSAllowsArbitraryLoadsInWebContent</key>
